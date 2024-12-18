@@ -4,6 +4,7 @@ public class Piece {
 	
 	protected Position positon;
 	private Board board;
+	public Object position;
 	
 	public Piece(Board board) {
 		this.board = board;	
