@@ -2,13 +2,13 @@ package boardgame;
 
 public abstract class Piece {
 	
-	protected Position positon;
+	protected Position position;
 	private Board board;
-	public Object position;
+	
 	
 	public Piece(Board board) {
 		this.board = board;	
-		positon = null;
+		position = null;
 	}
 
 	protected Board getBoard() {
@@ -29,7 +29,5 @@ public abstract class Piece {
 			}
 		}
 		return false;
-				
 	}
-	
 }
